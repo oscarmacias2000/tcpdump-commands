@@ -5,12 +5,15 @@
 ![image](https://media.licdn.com/dms/image/v2/D5612AQHPO-2Iu-iP0w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1659802184384?e=2147483647&v=beta&t=P_nvKbQr042i9jw4JPCbrPVRKAWnyFQR1yPT0kBqiPc)
 
 
+-[<tcpdump -w {interfaz} <another-commands>][Description: "Este comando sirve para guardar las capturas de datos en un archivo!"]
 
-
+-[<tcpdump -i  {interfaz} any <another-commands>][Description: "Este comando es utilizado para capturar paquetes en cualquier interfaz!"]
 
 -[<tcpdump   -ni {interfaz}   <another-coommands>][Description: "Este comando sirve para Desactivar la resolucion de nombres!"],
 
 -[<tcpdump -c {interfaz} <another-commands>][Description: "Este comando sirve para limitar el numero de paquetes a capturar o interceptar!"]
+
+-[<tcpdump -i {interfaz} any not port 22{SSH} or 23{Telnet} <another-commands>][Description: "Si quieres guardar capturas de datos en cualquier interfaz pero excluyendo SSH/Telnet!"]
 
 
 tcpdump@commands, todos los comandos de tcpdump, e iré agregando unos cuantos de tshark, y su funcionamiento detrás de sus capturas de datos
