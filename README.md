@@ -1,6 +1,4 @@
-# tcpdump-commands
-# tshark-commands
-# commands
+# tcpdump-commands #tshark-commands #wireshark #commands
 ![image](https://byte-mind.net/wp-content/uploads/2019/08/tcpdump-logo-450x410.jpg)
 
 
@@ -44,12 +42,12 @@ Más adelante, iré incorporando comandos de tshark, que es la contraparte en co
 .Incluir más adelante comandos y usos de tshark como complemento avanzado de análisis en consola.
 
 
-           Licencia y uso
+           -Licencia y uso
 
 Esta documentación es de uso personal, pero está publicada con el propósito de colaborar y aprender en conjunto. Puedes reutilizar, modificar o complementar el contenido libremente. Si te es útil, no dudes en adaptarlo a tus propias necesidades o contribuir con mejoras. La idea es ayudarnos mutuamente como profesionales y entusiastas del mundo de las redes.
 
 
-        Sobre el enfoque técnico
+        -Sobre el enfoque técnico
 
 Cada comando documentado en esta guía no solo se presenta como una instrucción aislada, sino que viene acompañado de una explicación de cómo se comporta internamente. Esto incluye aspectos como:
 
@@ -63,7 +61,7 @@ Cada comando documentado en esta guía no solo se presenta como una instrucción
 
 .Este enfoque busca ir más allá de memorizar comandos, para realmente comprender el comportamiento de la red desde una perspectiva de bajo nivel.
 
-        Próximamente: tshark-wireshark   
+        -Próximamente: tshark-wireshark   
 
 En etapas posteriores, se integrarán ejemplos y comandos clave de tshark, la versión CLI de Wireshark, que ofrece capacidades de análisis profundas y altamente configurables, ideales para automatización o análisis masivo de archivos .pcap.
 
