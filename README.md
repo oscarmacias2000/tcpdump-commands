@@ -8,9 +8,9 @@
 
 
 
--[<tcpdump   -ni <interfaz>    <another-coommands>][Description: "Este comando sirve para Desactivar la resolucion de nombres!"],
+-[<tcpdump   -ni {interfaz}   <another-coommands>][Description: "Este comando sirve para Desactivar la resolucion de nombres!"],
 
--[<tcpdump - <another-commands>][Description: "Este comando sirve para limitar el numero de paquetes a capturar o interceptar!"]
+-[<tcpdump -c {interfaz} <another-commands>][Description: "Este comando sirve para limitar el numero de paquetes a capturar o interceptar!"]
 
 
 tcpdump@commands, todos los comandos de tcpdump, e iré agregando unos cuantos de tshark, y su funcionamiento detrás de sus capturas de datos
