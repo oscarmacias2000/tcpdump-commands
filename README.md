@@ -2,7 +2,7 @@
 # tshark-commands
 # commands
 ![image](https://byte-mind.net/wp-content/uploads/2019/08/tcpdump-logo-450x410.jpg)
-![image](https://media.licdn.com/dms/image/v2/D5612AQHPO-2Iu-iP0w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1659802184384?e=2147483647&v=beta&t=P_nvKbQr042i9jw4JPCbrPVRKAWnyFQR1yPT0kBqiPc)
+
 
 
 -[<tcpdump -w {interfaz} <another-commands>][Description: "Este comando sirve para guardar las capturas de datos en un archivo!"]
@@ -28,8 +28,7 @@ Más adelante, iré incorporando comandos de tshark, que es la contraparte en co
 
                Objetivos de esta guía
 
-    Documentar los comandos de uso frecuente con ejemplos claros.
-
+    Documentar los comandos de uso frecuente con ejemplos claros. ![image](https://media.licdn.com/dms/image/v2/D5612AQHPO-2Iu-iP0w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1659802184384?e=2147483647&v=beta&t=P_nvKbQr042i9jw4JPCbrPVRKAWnyFQR1yPT0kBqiPc)
 .Explicar el funcionamiento interno de cada acción ejecutada.
 
 .Servir como referencia rápida para tareas de diagnóstico y análisis.
