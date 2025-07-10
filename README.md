@@ -43,3 +43,28 @@ Más adelante, iré incorporando comandos de tshark, que es la contraparte en co
 
 .Incluir más adelante comandos y usos de tshark como complemento avanzado de análisis en consola.
 
+
+           Licencia y uso
+
+Esta documentación es de uso personal, pero está publicada con el propósito de colaborar y aprender en conjunto. Puedes reutilizar, modificar o complementar el contenido libremente. Si te es útil, no dudes en adaptarlo a tus propias necesidades o contribuir con mejoras. La idea es ayudarnos mutuamente como profesionales y entusiastas del mundo de las redes.
+
+
+        Sobre el enfoque técnico
+
+Cada comando documentado en esta guía no solo se presenta como una instrucción aislada, sino que viene acompañado de una explicación de cómo se comporta internamente. Esto incluye aspectos como:
+
+.La forma en que tcpdump accede a las interfaces de red mediante libpcap.
+
+.Cómo se ejecutan los filtros BPF en el kernel para mejorar el rendimiento.
+
+.La interpretación de los paquetes a nivel de protocolos (IP, TCP, UDP, etc.).
+
+.La relación entre las capturas y herramientas gráficas como Wireshark.
+
+.Este enfoque busca ir más allá de memorizar comandos, para realmente comprender el comportamiento de la red desde una perspectiva de bajo nivel.
+
+        Próximamente: tshark-wireshark   
+
+En etapas posteriores, se integrarán ejemplos y comandos clave de tshark, la versión CLI de Wireshark, que ofrece capacidades de análisis profundas y altamente configurables, ideales para automatización o análisis masivo de archivos .pcap.
+
+        
