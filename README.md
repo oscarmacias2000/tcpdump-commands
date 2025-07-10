@@ -11,13 +11,18 @@
 
 -[<tcpdump -c {interfaz} <another-commands>][Description: "Este comando sirve para limitar el numero de paquetes a capturar o interceptar!"]
 
--[tcpdump -i {interfaz} any not port 22{SSH} or 23{Telnet} <another-commands>][Description: "Si quieres guardar capturas de datos en cualquier interfaz pero excluyendo SSH/Telnet!"]
+-[<tcpdump -i {interfaz} any not port 22{SSH} or 23{Telnet} <another-commands>][Description: "Si quieres guardar capturas de datos en cualquier interfaz pero excluyendo SSH/Telnet!"]
 
--[tcpdump -s {interfaz} ["Description: "Este comando te permite cambiar el tamaño de nuestros paquetes o archivo!""]]
--[tcpdump -r {interfaz}]
--[tcpdump -e {interfaz}]
--[tcpdump -v {<interfaz>}["Description: "Hace que muestre mas informacion sobre los paquetes""]]
--[tcpdump -vvv {<interfaz>} ]
+-[<tcpdump -s {interfaz} ["Description: "Este comando te permite cambiar el tamaño de nuestros paquetes o archivo!""]]
+
+-[<tcpdump -r {interfaz}]
+
+-[<tcpdump -e {interfaz}]
+
+-[<tcpdump -v {interfaz}["Description: "Hace que muestre mas informacion sobre los paquetes""]]
+
+-[<tcpdump -vvv {interfaz} ]
+
 tcpdump@commands, todos los comandos de tcpdump, e iré agregando unos cuantos de tshark, y su funcionamiento detrás de sus capturas de datos, esta guia es para uso personal
 Estoy desarrollando una guía personal sobre el uso de tcpdump, una herramienta fundamental en el análisis y monitoreo del tráfico de red. Esta guía no solo recopila los comandos esenciales que utilizo frecuentemente, sino que también explica cómo funciona internamente cada uno, con el objetivo de comprender verdaderamente lo que ocurre detrás de cada captura.
 
