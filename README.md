@@ -28,7 +28,13 @@ Más adelante, iré incorporando comandos de tshark, que es la contraparte en co
 
                Objetivos de esta guía
 
-    Documentar los comandos de uso frecuente con ejemplos claros. ![image](https://media.licdn.com/dms/image/v2/D5612AQHPO-2Iu-iP0w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1659802184384?e=2147483647&v=beta&t=P_nvKbQr042i9jw4JPCbrPVRKAWnyFQR1yPT0kBqiPc)
+    Documentar los comandos de uso frecuente con ejemplos claros.    
+    -i <interfaz>
+    -ni <interfaz>
+    -w <interfaz>
+    -c <interfaz
+    -i any <interfaz>
+    -i any not port<22><23> <interfaz>
 .Explicar el funcionamiento interno de cada acción ejecutada.
 
 .Servir como referencia rápida para tareas de diagnóstico y análisis.
